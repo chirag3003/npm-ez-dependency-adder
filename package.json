@@ -11,7 +11,7 @@
     "build": "turbo build"
   },
   "devDependencies": {
-    "@bravo68web/eslint-config": "^1.2.2",
+    "@bravo68web/eslint-config": "^1.2.3",
     "@bravo68web/prettier-config": "^1.2.2",
     "@bravo68web/tsconfig": "^1.2.2",
     "@next/eslint-plugin-next": "^14.0.4",
