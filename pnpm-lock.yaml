@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@bravo68web/eslint-config':
         specifier: ^1.2.3
-        version: 1.2.3(eslint@8.57.0)(prettier@3.0.0)(tailwindcss@3.3.6)(typescript@5.4.2)
+        version: 1.2.3(eslint@8.57.0)(prettier@3.0.0)(tailwindcss@3.4.1)(typescript@5.4.2)
       '@bravo68web/prettier-config':
         specifier: ^1.2.3
         version: 1.2.3(@types/node@20.11.28)(eslint@8.57.0)(prettier@3.0.0)
@@ -68,7 +68,7 @@ importers:
         version: 3.3.1(react-hook-form@7.51.0)
       '@tailwindcss/forms':
         specifier: ^0.5.7
-        version: 0.5.7(tailwindcss@3.3.6)
+        version: 0.5.7(tailwindcss@3.4.1)
       '@types/node':
         specifier: 20.11.28
         version: 20.11.28
@@ -121,8 +121,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       tailwindcss:
-        specifier: 3.3.6
-        version: 3.3.6
+        specifier: 3.4.1
+        version: 3.4.1
       typescript:
         specifier: 5.4.2
         version: 5.4.2
@@ -132,7 +132,7 @@ importers:
     devDependencies:
       '@bravo68web/eslint-config':
         specifier: ^1.2.3
-        version: 1.2.3(eslint@8.57.0)(prettier@3.0.0)(tailwindcss@3.3.6)(typescript@5.4.2)
+        version: 1.2.3(eslint@8.57.0)(prettier@3.0.0)(tailwindcss@3.4.1)(typescript@5.4.2)
       '@bravo68web/prettier-config':
         specifier: ^1.2.3
         version: 1.2.3(@types/node@20.11.28)(eslint@8.57.0)(prettier@3.0.0)
@@ -199,7 +199,7 @@ packages:
     dependencies:
       regenerator-runtime: 0.14.0
 
-  /@bravo68web/eslint-config@1.2.3(eslint@8.57.0)(prettier@3.0.0)(tailwindcss@3.3.6)(typescript@5.4.2):
+  /@bravo68web/eslint-config@1.2.3(eslint@8.57.0)(prettier@3.0.0)(tailwindcss@3.4.1)(typescript@5.4.2):
     resolution: {integrity: sha512-FQQneHb6zRKkwLiLZzajF0dXALBUmv/ERazvQvB3K5DDtrhaVB6NF5qIp1xYzusdkGipnvJE4H3olO/vG5/xxQ==}
     peerDependencies:
       eslint: 8.x
@@ -220,7 +220,7 @@ packages:
       eslint-plugin-security: 1.7.1
       eslint-plugin-simple-import-sort: 10.0.0(eslint@8.57.0)
       eslint-plugin-sonarjs: 0.23.0(eslint@8.57.0)
-      eslint-plugin-tailwindcss: 3.13.0(tailwindcss@3.3.6)
+      eslint-plugin-tailwindcss: 3.13.0(tailwindcss@3.4.1)
       eslint-plugin-unicorn: 49.0.0(eslint@8.57.0)
       typescript: 5.4.2
     transitivePeerDependencies:
@@ -1437,13 +1437,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tailwindcss/forms@0.5.7(tailwindcss@3.3.6):
+  /@tailwindcss/forms@0.5.7(tailwindcss@3.4.1):
     resolution: {integrity: sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.3.6
+      tailwindcss: 3.4.1
     dev: false
 
   /@tanstack/react-virtual@3.1.1(react-dom@18.2.0)(react@18.2.0):
@@ -2830,7 +2830,7 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.6):
+  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.4.1):
     resolution: {integrity: sha512-Fcep4KDRLWaK3KmkQbdyKHG0P4GdXFmXdDaweTIPcgOP60OOuWFbh1++dufRT28Q4zpKTKaHwTsXPJ4O/EjU2Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -2838,7 +2838,7 @@ packages:
     dependencies:
       fast-glob: 3.3.1
       postcss: 8.4.33
-      tailwindcss: 3.3.6
+      tailwindcss: 3.4.1
     dev: true
 
   /eslint-plugin-unicorn@49.0.0(eslint@8.57.0):
@@ -4498,14 +4498,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /resolve@1.22.6:
-    resolution: {integrity: sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.13.1
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-
   /resolve@1.22.8:
     resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
     hasBin: true
@@ -4930,8 +4922,8 @@ packages:
       '@babel/runtime': 7.23.7
     dev: false
 
-  /tailwindcss@3.3.6:
-    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
+  /tailwindcss@3.4.1:
+    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -4955,7 +4947,7 @@ packages:
       postcss-load-config: 4.0.1(postcss@8.4.33)
       postcss-nested: 6.0.1(postcss@8.4.33)
       postcss-selector-parser: 6.0.13
-      resolve: 1.22.6
+      resolve: 1.22.8
       sucrase: 3.34.0
     transitivePeerDependencies:
       - ts-node
