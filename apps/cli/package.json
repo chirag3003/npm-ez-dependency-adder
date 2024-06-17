@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "chalk": "^5.3.0",
-        "clerc": "^0.42.2",
+        "clerc": "^0.44.0",
         "enquirer": "^2.4.1",
         "shelljs": "^0.8.5"
     },
