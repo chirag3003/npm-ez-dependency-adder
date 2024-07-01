@@ -5,7 +5,7 @@
     "@bravo68web/tsconfig": "^1.2.4",
     "@cloudflare/workers-types": "^4.20240512.0",
     "typescript": "^5.4.5",
-    "wrangler": "3.60.0"
+    "wrangler": "3.62.0"
   },
   "private": true,
   "author": {
